@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>King Defense</title>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .game-container {
+      width: 720px;
+      height: 500px;
+    }
+    ruffle-player {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="game-container">
+    <ruffle-player 
+      autoplay="true" 
+      src="https://t1.daumcdn.net/cfile/tistory/25457F4B567CD92E13">
+    </ruffle-player>
+  </div>
+</body>
+</html> 
